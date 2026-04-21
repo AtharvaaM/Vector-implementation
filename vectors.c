@@ -274,11 +274,6 @@ int vector_cmp_str(void* a, void* b)
     return strcmp(*(char**)a, *(char**)b);
 }
 
-int vector_cmp_raw(void* a, void* b, size_t n) 
-{
-    return memcmp(a, b, n);
-}
-
 
 
 //=========================PUSH AND POP========================================
