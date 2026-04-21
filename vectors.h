@@ -73,7 +73,6 @@ void vector_itr_jump(vector_iterator* it, int jumpsize);
 int vector_cmp_int(void* a, void* b);
 int vector_cmp_double(void* a, void* b);
 int vector_cmp_str(void* a, void* b);
-int vector_cmp_raw(void* a, void* b, size_t n);
 
 //push, pop
 
