@@ -70,7 +70,7 @@ void data_free(void* elem) //always runs twice, once on the entire allocated blo
 
 void print_data_vector(vector* v) 
 {
-    printf("VECTOR CONTAINS %d ELEMENTS\n", V_SIZE(v));
+    printf("VECTOR CONTAINS %zu ELEMENTS\n", V_SIZE(v));
     for (size_t i = 0; i < V_SIZE(v); i++) {
         data* d = V_GET(v, i, data); 
         printf("%d : ID: %d | Value: %.2f | Name: %s\n", i, d->id, d->value, d->name ? d->name : "NULL");
