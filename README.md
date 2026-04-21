@@ -111,9 +111,9 @@ V_SEARCH(v, val, cmp);    // binary search (array must be sorted) — returns in
 
 ## Sort & Order
 ```c
-V_SORT(v, cmp);           // mergesort in place
-V_REVERSE(v);             // reverse in place
-V_IS_SORTED(v, cmp, 0);  // check order: 0 = ascending, 1 = descending — returns 1/0
+V_SORT(v, cmp);                // mergesort in place
+V_REVERSE(v);                  // reverse in place
+V_IS_SORTED(v, cmp, reverse);  // reverse -> 0 = ascending, 1 = descending; returns 1 on success
 ```
 
 ## Functional Helpers
