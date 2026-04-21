@@ -21,7 +21,7 @@
 #define V_INIT(v, type) vector_default_init(v, sizeof(type))
 
 #define V_INIT_CUSTOM(v, type, copy_fn, destroy_fn, alloc_fn, realloc_fn, free_fn) \
-    vector_custom_create(v, sizeof(type), (copy_fn), (destroy_fn), (alloc_fn), (realloc_fn), (free_fn))
+    vector_custom_init(v, sizeof(type), (copy_fn), (destroy_fn), (alloc_fn), (realloc_fn), (free_fn))
 
 //FREE---------------------------------------------------------------
 #define V_DELETE(v) vector_delete(v)
