@@ -130,8 +130,9 @@ V_IS_EMPTY(v)                  // returns 1 if size is 0
 V_IS_SORTED(v, cmp, reverse)   // returns 1 if sorted
 ```
 
-Built-in comparators: `vector_cmp_int`
-                      `vector_cmp_double`
-                      `vector_cmp_str`
-                      `vector_cmp_raw`
+## Built-in comparators: 
+`vector_cmp_int`
+`vector_cmp_double`
+`vector_cmp_str`
+
 
